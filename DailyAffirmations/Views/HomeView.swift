@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct HomeView: View {
+    @StateObject private var viewModel = AffirmationViewModel()
+    
     var body: some View {
         ZStack {
             Color("Primary").edgesIgnoringSafeArea(.all)
@@ -16,18 +18,26 @@ struct HomeView: View {
                     .font(.title)
                     .foregroundColor(Color("Background"))
                 
-                Text(affirmation.affirmationText)
-                    .font(.title2)
-                    .fontWeight(.medium)
-                    .foregroundColor(Color("TextPrimary"))
-                    .padding()
-                    .background(Color("Secondary"))
-                    .cornerRadius(20)
-                    .shadow(color: .gray.opacity(0.2), radius: 10, x: 0, y: 5)
-                    .padding(.horizontal, 30)
+                if let affirmation = viewModel.currentAffirmation {
+                    Text(affirmation.affirmationText)
+                        .font(.title2)
+                        .fontWeight(.medium)
+                        .foregroundColor(Color("TextPrimary"))
+                        .padding()
+                        .background(Color("Secondary"))
+                        .cornerRadius(20)
+                        .shadow(color: .gray.opacity(0.2), radius: 10, x: 0, y: 5)
+                        .padding(.horizontal, 30)
+                } else {
+                    Text("Cargando afirmación...")
+                        .foregroundColor(.gray)
+                }
                 
             }
             .padding(.bottom, 500)
+        }
+        .onAppear {
+            viewModel.loadDayAffirmation()
         }
     }
 }
@@ -35,3 +45,5 @@ struct HomeView: View {
 #Preview {
     HomeView()
 }
+
+
