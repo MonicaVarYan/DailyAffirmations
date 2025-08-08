@@ -37,7 +37,7 @@ struct HomeView: View {
             .padding(.bottom, 500)
         }
         .onAppear {
-            viewModel.loadDayAffirmation()
+            viewModel.retrieveTodayAffirmation()
         }
     }
 }

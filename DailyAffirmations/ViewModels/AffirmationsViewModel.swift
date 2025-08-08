@@ -15,19 +15,34 @@ class AffirmationViewModel: ObservableObject {
     private let service = AffirmationService()
     
     init() {
-        loadDayAffirmation()
+        retrieveTodayAffirmation()
     }
     
-    func loadDayAffirmation() {
+//    func loadDayAffirmation() {
+//        Task {
+//            do {
+//                let loaded = try await service.fetchAffirmationFromAPI()
+//                DispatchQueue.main.async { [weak self] in
+//                    self?.affirmations = loaded
+//                    self?.currentAffirmation = loaded.randomElement()
+//                }
+//            } catch {
+//                print("Error loading affirmations:", error)
+//            }
+//        }
+//    }
+    
+    func retrieveTodayAffirmation() {
         Task {
             do {
-                let loaded = try await service.fetchAffirmationFromAPI()
+                let todayAffirmation = try await service.retrieveDayAffirmation()
                 DispatchQueue.main.async { [weak self] in
-                    self?.affirmations = loaded
-                    self?.currentAffirmation = loaded.randomElement()
+                    self?.currentAffirmation = todayAffirmation.first
                 }
-            } catch {
+            }
+            catch {
                 print("Error loading affirmations:", error)
+
             }
         }
     }
