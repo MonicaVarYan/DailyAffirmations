@@ -9,19 +9,28 @@ import Foundation
 
 class AffirmationService {
     let affirmationAPI = URL(string: "https://www.affirmations.dev/")!
+    let decoder = JSONDecoder()
+    let encoder = JSONEncoder()
     
     func retrieveDayAffirmation() async throws -> [Affirmation] {
         let savedDate = UserDefaults.standard.object(forKey: "savedDay") as? Date
         let savedAffirmation =  UserDefaults.standard.object(forKey: "savedAffirmation") as? Data
         
         guard let savedDate else {
-            print("No hay una fecha guardada.")
+            print("No Saved Date")
             do{
                 let newAffirmation = try await fetchAffirmationFromAPI()
                 return newAffirmation
             }catch {
-                print("Error decoding saved affirmation: \(error)")
-                return []
+                print("Getting local affirmation")
+                guard let newLocalAffirmation = fecthAffirmationLocal().randomElement() else {
+                    print("Error getting local affirmation")
+                    return []
+                }
+                let affirmationData = try encoder.encode(newLocalAffirmation)
+                UserDefaults.standard.set(affirmationData, forKey: "savedAffirmation")
+                UserDefaults.standard.set(Date(), forKey: "savedDay")
+                return [newLocalAffirmation]
             }
         }
         
@@ -63,10 +72,25 @@ class AffirmationService {
         }
     }
     
+    func fecthAffirmationLocal() -> [Affirmation] {
+        guard let url = Bundle.main.url(forResource: "affirmation", withExtension: "json") else {
+            print("No se encontró el archivo affirmations.json")
+            return []
+        }
+        do{
+            let data = try Data(contentsOf: url)
+            let affirmationsJSON = try decoder.decode([Affirmation].self, from: data)
+            return affirmationsJSON
+        }
+        catch {
+            print("Error cargando affirmations.json: \(error)")
+            return []
+        }
+        
+    }
+    
     func fetchAffirmationFromAPI() async throws -> [Affirmation] {
         let (data, _) = try await URLSession.shared.data(from: affirmationAPI)
-        let decoder = JSONDecoder()
-        let encoder = JSONEncoder()
         let response = try decoder.decode(AffirmationAPIModel.self, from: data)
         
         let affirmationItem = Affirmation(
