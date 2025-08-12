@@ -8,85 +8,85 @@
 import Foundation
 
 class AffirmationService {
-    let affirmationAPI = URL(string: "https://www.affirmations.dev/")!
-    let decoder = JSONDecoder()
-    let encoder = JSONEncoder()
     
-    func retrieveDayAffirmation() async throws -> [Affirmation] {
-        let savedDate = UserDefaults.standard.object(forKey: "savedDay") as? Date
-        let savedAffirmation =  UserDefaults.standard.object(forKey: "savedAffirmation") as? Data
-        
-        guard let savedDate else {
-            print("No Saved Date")
-            do{
-                let newAffirmation = try await fetchAffirmationFromAPI()
-                return newAffirmation
-            }catch {
-                print("Getting local affirmation")
-                guard let newLocalAffirmation = fecthAffirmationLocal().randomElement() else {
-                    print("Error getting local affirmation")
-                    return []
-                }
-                let affirmationData = try encoder.encode(newLocalAffirmation)
-                UserDefaults.standard.set(affirmationData, forKey: "savedAffirmation")
-                UserDefaults.standard.set(Date(), forKey: "savedDay")
-                return [newLocalAffirmation]
-            }
-        }
-        
-        if Calendar.current.isDateInToday(savedDate){
-            print("Si hay fecha guardada.")
-            
-            guard let savedAffirmation else {
-                print("No hay afirmacion guardada.")
-                do{
-                    let newAffirmation = try await fetchAffirmationFromAPI()
-                    return newAffirmation
-                }catch {
-                    print("Error decoding saved affirmation: \(error)")
-                    return []
-                }
-            }
-            let decoder = JSONDecoder()
-            print("Si hay afirmacion guardada")
-            let affirmation = try decoder.decode(Affirmation.self, from: savedAffirmation)
-            if affirmation.affirmationText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
-                print("Hay afirmacion pero vacia")
-                do{
-                    let newAffirmation = try await fetchAffirmationFromAPI()
-                    return newAffirmation
-                }catch {
-                    print("Error decoding saved affirmation: \(error)")
-                    return []
-                }
-            }
-            return [affirmation]
-        } else {
-            do{
-                let newAffirmation = try await fetchAffirmationFromAPI()
-                return newAffirmation
-            }catch {
-                print("Error decoding saved affirmation: \(error)")
-                return []
-            }
-        }
+    //MARK: -Private
+    private let affirmationAPI = URL(string: "https://www.affirmations.dev/")!
+    private let decoder = JSONDecoder()
+    private let encoder = JSONEncoder()
+    
+    private(set) var affirmations: [Affirmation] = []
+    private(set) var affirmationsByCategory: [String: [Affirmation]] = [:]
+    
+    private enum Keys {
+        static let savedAffirmation = "savedAffirmation"
+        static let savedDay = "savedDay"
     }
     
-    func fecthAffirmationLocal() -> [Affirmation] {
+    //MARK: -Init
+    init (){
+        loadAffirmations()
+    }
+    
+    //MARK: -Local Affirmations
+    private func loadAffirmations() {
         guard let url = Bundle.main.url(forResource: "affirmation", withExtension: "json") else {
-            print("No se encontró el archivo affirmations.json")
-            return []
+            print("Couln't find file: affirmations.json")
+            return
         }
         do{
             let data = try Data(contentsOf: url)
             let affirmationsJSON = try decoder.decode([Affirmation].self, from: data)
-            return affirmationsJSON
+            affirmations = affirmationsJSON
+            affirmationsByCategory = Dictionary(grouping: affirmationsJSON, by: {$0.category})
         }
         catch {
-            print("Error cargando affirmations.json: \(error)")
-            return []
+            print("Error loading affirmations.json: \(error)")
+        }
+    }
+    
+    //MARK: -SaveAndGetDayAffirmation
+    private func encodeAndSaveAffirmation(_ affirmation: Affirmation) {
+        do {
+            let data = try encoder.encode(affirmation)
+            UserDefaults.standard.set(data, forKey: "savedAffirmation")
+            UserDefaults.standard.set(Date(), forKey: "savedDay")
+        } catch {
+            print("Error saving affirmation: \(error)")
+        }
+    }
+    
+    private func getSavedAffirmation() -> Affirmation? {
+        guard let savedData = UserDefaults.standard.data(forKey: Keys.savedAffirmation) else { return nil }
+        return try? decoder.decode(Affirmation.self, from: savedData)
+    }
+    
+    private func getRandomLocalAffirmation() -> Affirmation? {
+        affirmations.randomElement()
+    }
+    
+    
+    //MARK: -Public
+    func retrieveDayAffirmation() async throws -> Affirmation? {
+        if let savedDate = UserDefaults.standard.object(forKey: Keys.savedDay) as? Date,
+           Calendar.current.isDateInToday(savedDate),
+           let savedAffirmation = getSavedAffirmation(),
+           !savedAffirmation.affirmationText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+            return savedAffirmation
         }
         
+        do {
+            let apiAffirmation = try await fetchAffirmationFromAPI()
+            if let affirmation = apiAffirmation.first {
+                encodeAndSaveAffirmation(affirmation)
+                return affirmation
+            }
+        } catch {
+            if let localAffirmation = getRandomLocalAffirmation() {
+                encodeAndSaveAffirmation(localAffirmation)
+                return localAffirmation
+            }
+        }
+        return nil
     }
     
     func fetchAffirmationFromAPI() async throws -> [Affirmation] {
@@ -100,13 +100,12 @@ class AffirmationService {
             isFavorite: false
         )
         
-        let affirmationData = try encoder.encode(affirmationItem)
-        UserDefaults.standard.set(affirmationData, forKey: "savedAffirmation")
-        UserDefaults.standard.set(Date(), forKey: "savedDay")
+        encodeAndSaveAffirmation(affirmationItem)
         
         return [affirmationItem]
     }
     
+    //MARK: -Private Model
     private struct AffirmationAPIModel: Codable { //Used only for decodable JSON API Response and avoid error for using AffirmationModel
         let affirmation: String
     }

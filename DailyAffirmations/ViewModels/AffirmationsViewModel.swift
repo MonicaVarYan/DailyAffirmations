@@ -9,46 +9,32 @@ import Foundation
 
 @MainActor
 class AffirmationViewModel: ObservableObject {
-    @Published var affirmations: [Affirmation] = []
-    @Published var currentAffirmation: Affirmation?
-
-    private let service = AffirmationService()
+    //MARK: -Public Vars
+    @Published var dailyAffirmation: Affirmation?
+    @Published var isLoading: Bool = false
+    @Published var errorMessage: String?
     
-    init() {
-        retrieveTodayAffirmation()
+    //MARK: -Private
+    private let service: AffirmationService
+    
+    //MARK: -Init
+    init(service: AffirmationService) {
+        self.service = service
     }
     
-//    func loadDayAffirmation() {
-//        Task {
-//            do {
-//                let loaded = try await service.fetchAffirmationFromAPI()
-//                DispatchQueue.main.async { [weak self] in
-//                    self?.affirmations = loaded
-//                    self?.currentAffirmation = loaded.randomElement()
-//                }
-//            } catch {
-//                print("Error loading affirmations:", error)
-//            }
-//        }
-//    }
-    
-    func retrieveTodayAffirmation() {
-        Task {
-            do {
-                let todayAffirmation = try await service.retrieveDayAffirmation()
-                DispatchQueue.main.async { [weak self] in
-                    self?.currentAffirmation = todayAffirmation.first
-                }
-            }
-            catch {
-                print("Error loading affirmations:", error)
-
-            }
+    //MARK: -Public functions
+    func loadDayAffirmation() async {
+        isLoading = true
+        errorMessage = nil
+        
+        defer { isLoading = false }
+        
+        do {
+            let affirmations = try await service.retrieveDayAffirmation()
+            self.dailyAffirmation = affirmations
+        } catch {
+            self.errorMessage = "Error fetching affirmation: \(error.localizedDescription)"
         }
-    }
-
-    func showNewAffirmation() {
-        guard !affirmations.isEmpty else { return }
-        currentAffirmation = affirmations.randomElement()
+        isLoading = false
     }
 }
