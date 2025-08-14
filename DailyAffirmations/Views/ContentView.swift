@@ -14,7 +14,7 @@ struct ContentView: View {
                 HomeView()
             }
             Tab("Category", systemImage: "newspaper"){
-                CategoryView()
+                CategoryListView()
             }
         }
     }

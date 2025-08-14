@@ -1,602 +1,752 @@
 [
-  {
-    "id": "e1e66fc2-e85b-4ee6-9f8b-32cf3b66dbfd",
-    "affirmationText": "I accept myself unconditionally.",
-    "category": "Self-Love",
-    "isFavorite": false
-  },
-  {
-    "id": "164355a1-5c12-4268-af92-43648d0e71b2",
-    "affirmationText": "I am worthy of love and kindness.",
-    "category": "Self-Love",
-    "isFavorite": false
-  },
-  {
-    "id": "900da46e-4d8d-4871-852c-d67730de0a32",
-    "affirmationText": "I love who I am becoming.",
-    "category": "Self-Love",
-    "isFavorite": false
-  },
-  {
-    "id": "f0301c29-f07a-4d8e-b02c-f39f4236ad89",
-    "affirmationText": "I am enough, just as I am.",
-    "category": "Self-Love",
-    "isFavorite": false
-  },
-  {
-    "id": "edff4dc6-732a-4b64-bd40-618cfedf7515",
-    "affirmationText": "I treat myself with compassion.",
-    "category": "Self-Love",
-    "isFavorite": false
-  },
-  {
-    "id": "4086df2b-2e04-4cef-b4fa-b0306e4554ab",
-    "affirmationText": "My self-worth is not defined by others.",
-    "category": "Self-Love",
-    "isFavorite": false
-  },
-  {
-    "id": "c209f99f-a719-4155-bd95-d21d83db7b57",
-    "affirmationText": "I forgive myself for past mistakes.",
-    "category": "Self-Love",
-    "isFavorite": false
-  },
-  {
-    "id": "6bd79e9c-8fe4-470d-8d49-da0a1b741c2b",
-    "affirmationText": "I deserve to take up space.",
-    "category": "Self-Love",
-    "isFavorite": false
-  },
-  {
-    "id": "e44716b1-0e09-4bf4-b744-3fae3b028c13",
-    "affirmationText": "I celebrate my uniqueness.",
-    "category": "Self-Love",
-    "isFavorite": false
-  },
-  {
-    "id": "f8959da1-4f58-49c0-a288-587c5e337810",
-    "affirmationText": "I honor my needs and boundaries.",
-    "category": "Self-Love",
-    "isFavorite": false
-  },
-  {
-    "id": "a89fd296-58d8-4211-ac14-d7473532cb48",
-    "affirmationText": "I trust my inner wisdom.",
-    "category": "Self-Love",
-    "isFavorite": false
-  },
-  {
-    "id": "c8de13e5-da57-40cc-8873-9b19f7d91246",
-    "affirmationText": "I am proud of my progress.",
-    "category": "Self-Love",
-    "isFavorite": false
-  },
-  {
-    "id": "cfcc495a-3f54-463d-9b52-244e9f5d1561",
-    "affirmationText": "I radiate self-respect and confidence.",
-    "category": "Self-Love",
-    "isFavorite": false
-  },
-  {
-    "id": "e4ca5c4d-35f0-4ac8-b178-1cdad2129041",
-    "affirmationText": "I nurture my body, mind, and soul.",
-    "category": "Self-Love",
-    "isFavorite": false
-  },
-  {
-    "id": "a2ba35ba-c611-4fd7-9638-2653ced83f17",
-    "affirmationText": "I release the need for perfection.",
-    "category": "Self-Love",
-    "isFavorite": false
-  },
-  {
-    "id": "ac2fd6fc-18f0-4517-93c3-063395771c84",
-    "affirmationText": "I choose thoughts that serve me well.",
-    "category": "Self-Love",
-    "isFavorite": false
-  },
-  {
-    "id": "1b784fcf-dc91-43b6-8667-81a21355c65b",
-    "affirmationText": "I give myself permission to rest.",
-    "category": "Self-Love",
-    "isFavorite": false
-  },
-  {
-    "id": "987d416e-43eb-4fd8-98d5-1968e5867ad6",
-    "affirmationText": "My relationship with myself is strong.",
-    "category": "Self-Love",
-    "isFavorite": false
-  },
-  {
-    "id": "1336c2e6-2cfd-4ffd-8f02-f26943977193",
-    "affirmationText": "I am a work in progress and that\u2019s okay.",
-    "category": "Self-Love",
-    "isFavorite": false
-  },
-  {
-    "id": "3c72e35e-770b-41e0-bad4-148572c49fc1",
-    "affirmationText": "I value myself deeply.",
-    "category": "Self-Love",
-    "isFavorite": false
-  },
-  {
-    "id": "7c102706-ff5b-4b0a-a5c2-26a1f9ee8a44",
-    "affirmationText": "I am capable of achieving great things.",
-    "category": "Motivation",
-    "isFavorite": false
-  },
-  {
-    "id": "9d8a1a15-b9f2-421c-9e59-615f12dcf8fe",
-    "affirmationText": "Every step I take brings me closer to my goals.",
-    "category": "Motivation",
-    "isFavorite": false
-  },
-  {
-    "id": "367cac53-58dc-40b2-87c8-9c24a7634295",
-    "affirmationText": "I am motivated, persistent, and successful.",
-    "category": "Motivation",
-    "isFavorite": false
-  },
-  {
-    "id": "0019d546-870c-4006-bd40-d067fef393ae",
-    "affirmationText": "I have the power to change my story.",
-    "category": "Motivation",
-    "isFavorite": false
-  },
-  {
-    "id": "9e95335e-a030-4c9e-bec1-731659deabb4",
-    "affirmationText": "Obstacles are opportunities to grow.",
-    "category": "Motivation",
-    "isFavorite": false
-  },
-  {
-    "id": "9251a996-ed44-41a9-bd43-2bb7eec8bffc",
-    "affirmationText": "I am committed to my personal growth.",
-    "category": "Motivation",
-    "isFavorite": false
-  },
-  {
-    "id": "abdb6d3e-81e4-4811-8c80-98cc9ead5119",
-    "affirmationText": "I wake up with purpose and determination.",
-    "category": "Motivation",
-    "isFavorite": false
-  },
-  {
-    "id": "7511c3a4-9d11-424a-ae4b-197d8fa14746",
-    "affirmationText": "I believe in my vision for the future.",
-    "category": "Motivation",
-    "isFavorite": false
-  },
-  {
-    "id": "e91de97e-d553-40a3-8a17-572bac4c3017",
-    "affirmationText": "I act with courage and confidence.",
-    "category": "Motivation",
-    "isFavorite": false
-  },
-  {
-    "id": "1f12861f-d6bb-46dc-b057-ca6c0272eafd",
-    "affirmationText": "I take action even when it feels hard.",
-    "category": "Motivation",
-    "isFavorite": false
-  },
-  {
-    "id": "5f030306-ef95-4002-b69c-7614c78be795",
-    "affirmationText": "My dreams are valid and achievable.",
-    "category": "Motivation",
-    "isFavorite": false
-  },
-  {
-    "id": "7d7c9664-cdcb-4485-ae15-ce76a58715da",
-    "affirmationText": "I turn challenges into triumphs.",
-    "category": "Motivation",
-    "isFavorite": false
-  },
-  {
-    "id": "de79b13e-d4cc-4148-8e83-9fb4739d9692",
-    "affirmationText": "I stay focused and never give up.",
-    "category": "Motivation",
-    "isFavorite": false
-  },
-  {
-    "id": "ee3f7c81-8796-440f-bcb3-11e5ab08c839",
-    "affirmationText": "I trust the journey of progress.",
-    "category": "Motivation",
-    "isFavorite": false
-  },
-  {
-    "id": "8a3a865e-ec83-434f-aad9-9fbebbec206b",
-    "affirmationText": "I create momentum through consistency.",
-    "category": "Motivation",
-    "isFavorite": false
-  },
-  {
-    "id": "440bc756-ac1b-4660-b0f8-9c69a43772de",
-    "affirmationText": "I am fueled by my passion and goals.",
-    "category": "Motivation",
-    "isFavorite": false
-  },
-  {
-    "id": "1e1f2fd1-6518-4c39-968e-a458fed6943a",
-    "affirmationText": "Every day I move forward with clarity.",
-    "category": "Motivation",
-    "isFavorite": false
-  },
-  {
-    "id": "9ba3bbd4-b173-4032-a39a-bf9fefee4fcd",
-    "affirmationText": "I embrace effort and improvement.",
-    "category": "Motivation",
-    "isFavorite": false
-  },
-  {
-    "id": "2e357150-5b61-4db9-8e39-cdc7679d8999",
-    "affirmationText": "I stay disciplined and determined.",
-    "category": "Motivation",
-    "isFavorite": false
-  },
-  {
-    "id": "e625f340-7287-477e-92f9-0b4fa6b0c05a",
-    "affirmationText": "I can do hard things.",
-    "category": "Motivation",
-    "isFavorite": false
-  },
-  {
-    "id": "c7c77692-fcbd-4272-9800-81238c2eecde",
-    "affirmationText": "I am thankful for the small joys in life.",
-    "category": "Gratitude",
-    "isFavorite": false
-  },
-  {
-    "id": "0a10dde8-465f-4f06-88ed-45da0b39e9eb",
-    "affirmationText": "Gratitude fills my heart and soul.",
-    "category": "Gratitude",
-    "isFavorite": false
-  },
-  {
-    "id": "286d4520-e026-4fbc-b00d-e72201d00514",
-    "affirmationText": "I appreciate all the good in my life.",
-    "category": "Gratitude",
-    "isFavorite": false
-  },
-  {
-    "id": "a21055ee-d023-4081-9ae4-fa77a283af77",
-    "affirmationText": "Today, I choose to see the blessings.",
-    "category": "Gratitude",
-    "isFavorite": false
-  },
-  {
-    "id": "b5cd4852-554d-4f44-82de-b0ea5d2e19ef",
-    "affirmationText": "I am grateful for my journey.",
-    "category": "Gratitude",
-    "isFavorite": false
-  },
-  {
-    "id": "57299a9f-2294-4f6c-a4e2-ea67c4f0750c",
-    "affirmationText": "My heart is full of appreciation.",
-    "category": "Gratitude",
-    "isFavorite": false
-  },
-  {
-    "id": "67864fdb-9dba-498e-8075-21d036609e47",
-    "affirmationText": "I notice beauty in everyday moments.",
-    "category": "Gratitude",
-    "isFavorite": false
-  },
-  {
-    "id": "6f1100ed-1dd5-4b7b-83a0-cc9f57031a43",
-    "affirmationText": "Gratitude guides my actions and thoughts.",
-    "category": "Gratitude",
-    "isFavorite": false
-  },
-  {
-    "id": "e1ec0bb0-654f-41b6-b167-fbb7aa33cf87",
-    "affirmationText": "I express thanks with sincerity and love.",
-    "category": "Gratitude",
-    "isFavorite": false
-  },
-  {
-    "id": "7b9a2c09-9b20-44c4-b16c-140b5036f97c",
-    "affirmationText": "Each moment is a gift I cherish.",
-    "category": "Gratitude",
-    "isFavorite": false
-  },
-  {
-    "id": "1654694c-6994-4a41-bc40-2a7a2c2be809",
-    "affirmationText": "I am grateful for the people who support me.",
-    "category": "Gratitude",
-    "isFavorite": false
-  },
-  {
-    "id": "8b770cb9-6496-4daa-b813-873a6d9a2d21",
-    "affirmationText": "I give thanks freely and often.",
-    "category": "Gratitude",
-    "isFavorite": false
-  },
-  {
-    "id": "896e5c48-5706-4aaa-a746-0145b60b8d93",
-    "affirmationText": "I focus on abundance, not lack.",
-    "category": "Gratitude",
-    "isFavorite": false
-  },
-  {
-    "id": "30d53a68-28c6-491a-8de8-cbdaac07df37",
-    "affirmationText": "My life is rich with meaningful moments.",
-    "category": "Gratitude",
-    "isFavorite": false
-  },
-  {
-    "id": "3fc47287-1cda-43fc-9ba8-14f538e71d1f",
-    "affirmationText": "I honor the present with gratitude.",
-    "category": "Gratitude",
-    "isFavorite": false
-  },
-  {
-    "id": "5766d59b-dca6-4b89-8f40-d307f85cf2cf",
-    "affirmationText": "Gratitude opens my heart to happiness.",
-    "category": "Gratitude",
-    "isFavorite": false
-  },
-  {
-    "id": "bdecb195-a465-4547-bdf7-8c55ee208a0c",
-    "affirmationText": "Thankfulness shifts my perspective.",
-    "category": "Gratitude",
-    "isFavorite": false
-  },
-  {
-    "id": "04c02b50-cc44-4bf0-9862-b863fd048a17",
-    "affirmationText": "I appreciate myself and others.",
-    "category": "Gratitude",
-    "isFavorite": false
-  },
-  {
-    "id": "9dae856f-abc3-47ea-94d7-1cef0619e738",
-    "affirmationText": "I welcome joy through gratitude.",
-    "category": "Gratitude",
-    "isFavorite": false
-  },
-  {
-    "id": "582600fd-62e8-4dda-96c5-bbc7e532dcda",
-    "affirmationText": "Gratitude is my daily practice.",
-    "category": "Gratitude",
-    "isFavorite": false
-  },
-  {
-    "id": "16a53eec-de3e-482c-8d0f-bd64b004e441",
-    "affirmationText": "I am present in this moment.",
-    "category": "Mindfulness",
-    "isFavorite": false
-  },
-  {
-    "id": "235ec4f0-235d-4b3b-a629-d26437237873",
-    "affirmationText": "I let go of worries and embrace peace.",
-    "category": "Mindfulness",
-    "isFavorite": false
-  },
-  {
-    "id": "89ea7004-5636-4060-a3ce-5eb2992df3ec",
-    "affirmationText": "I breathe deeply and feel calm.",
-    "category": "Mindfulness",
-    "isFavorite": false
-  },
-  {
-    "id": "cc5ac5d6-e482-4a25-ba95-f47c3121c136",
-    "affirmationText": "Each breath grounds me.",
-    "category": "Mindfulness",
-    "isFavorite": false
-  },
-  {
-    "id": "a5fec49e-b7f9-4f56-a453-741c9ba299eb",
-    "affirmationText": "I observe my thoughts without judgment.",
-    "category": "Mindfulness",
-    "isFavorite": false
-  },
-  {
-    "id": "4f620fe6-f448-46de-a599-bb40705911b0",
-    "affirmationText": "Peace begins with mindfulness.",
-    "category": "Mindfulness",
-    "isFavorite": false
-  },
-  {
-    "id": "8c6e6af0-5309-446f-9b46-ad7b61e9edb5",
-    "affirmationText": "I am aware of my emotions and sensations.",
-    "category": "Mindfulness",
-    "isFavorite": false
-  },
-  {
-    "id": "83d87e0d-347f-43fd-ad21-941e88117b60",
-    "affirmationText": "I embrace the now with open arms.",
-    "category": "Mindfulness",
-    "isFavorite": false
-  },
-  {
-    "id": "2ba92ced-534c-416f-ad8a-a473f482a1c2",
-    "affirmationText": "I let go of what I cannot control.",
-    "category": "Mindfulness",
-    "isFavorite": false
-  },
-  {
-    "id": "86573e04-85eb-4f8c-baa6-046402f501b9",
-    "affirmationText": "Silence and stillness are my allies.",
-    "category": "Mindfulness",
-    "isFavorite": false
-  },
-  {
-    "id": "5fd366aa-254a-40e9-8669-f66939d2a6fb",
-    "affirmationText": "I am centered and calm.",
-    "category": "Mindfulness",
-    "isFavorite": false
-  },
-  {
-    "id": "c57b8226-f0c3-475e-993b-5e8e03016406",
-    "affirmationText": "I welcome clarity into my mind.",
-    "category": "Mindfulness",
-    "isFavorite": false
-  },
-  {
-    "id": "76c71dd4-9938-4d74-8f4e-bdade8fae3ee",
-    "affirmationText": "I return to the present with ease.",
-    "category": "Mindfulness",
-    "isFavorite": false
-  },
-  {
-    "id": "c1e480a0-7458-40a2-8738-7b2b1f75bf70",
-    "affirmationText": "I notice the beauty of this moment.",
-    "category": "Mindfulness",
-    "isFavorite": false
-  },
-  {
-    "id": "72dad70b-c71d-448f-805f-ba4e2a0b78b3",
-    "affirmationText": "I release tension with every breath.",
-    "category": "Mindfulness",
-    "isFavorite": false
-  },
-  {
-    "id": "e4fc2388-6f7e-4edf-818b-c993eafe5dde",
-    "affirmationText": "Mindfulness nurtures my spirit.",
-    "category": "Mindfulness",
-    "isFavorite": false
-  },
-  {
-    "id": "7576e17d-2874-47c1-9df6-88f56c8f570b",
-    "affirmationText": "I slow down and enjoy life\u2019s flow.",
-    "category": "Mindfulness",
-    "isFavorite": false
-  },
-  {
-    "id": "d8131515-0305-4c5e-bba9-ca26804e372e",
-    "affirmationText": "I make space for quiet reflection.",
-    "category": "Mindfulness",
-    "isFavorite": false
-  },
-  {
-    "id": "b27ab477-3716-434f-9123-0a6d0d513a90",
-    "affirmationText": "The present moment is my home.",
-    "category": "Mindfulness",
-    "isFavorite": false
-  },
-  {
-    "id": "aeb93ec6-e6ca-44f9-8bb2-03050d798d5d",
-    "affirmationText": "I walk through life with awareness.",
-    "category": "Mindfulness",
-    "isFavorite": false
-  },
-  {
-    "id": "6ff095ea-2b05-4c4a-84f1-bb0edfdcfe22",
-    "affirmationText": "I believe in myself completely.",
-    "category": "Confidence",
-    "isFavorite": false
-  },
-  {
-    "id": "753a2914-8ef7-4f44-bda6-db74e48ac5dd",
-    "affirmationText": "I walk with strength and assurance.",
-    "category": "Confidence",
-    "isFavorite": false
-  },
-  {
-    "id": "5ac982a3-5e88-40cc-b36b-2d4cd9de37c5",
-    "affirmationText": "My confidence grows every day.",
-    "category": "Confidence",
-    "isFavorite": false
-  },
-  {
-    "id": "083eb33d-0723-4b93-b2fe-67ae7996432a",
-    "affirmationText": "I trust myself to make wise decisions.",
-    "category": "Confidence",
-    "isFavorite": false
-  },
-  {
-    "id": "5f36514e-b908-43a7-b152-da9c273f550d",
-    "affirmationText": "I handle challenges with grace.",
-    "category": "Confidence",
-    "isFavorite": false
-  },
-  {
-    "id": "6250f9bc-ad17-416d-88ec-090945cea496",
-    "affirmationText": "I speak with clarity and purpose.",
-    "category": "Confidence",
-    "isFavorite": false
-  },
-  {
-    "id": "ba8ae396-c626-424f-bf1b-739e3f34e2d3",
-    "affirmationText": "I am proud of my abilities.",
-    "category": "Confidence",
-    "isFavorite": false
-  },
-  {
-    "id": "20753f9d-35a6-4f49-8615-f75526d0107d",
-    "affirmationText": "I take up space with confidence.",
-    "category": "Confidence",
-    "isFavorite": false
-  },
-  {
-    "id": "680fca7e-4e26-4857-9829-5fa036c8d64e",
-    "affirmationText": "I bring value wherever I go.",
-    "category": "Confidence",
-    "isFavorite": false
-  },
-  {
-    "id": "a68a7936-1c2d-4f4b-a7d1-9486e34db0d9",
-    "affirmationText": "My voice matters.",
-    "category": "Confidence",
-    "isFavorite": false
-  },
-  {
-    "id": "27d3737e-e9da-4641-a2b4-3a6294040fc9",
-    "affirmationText": "I shine in my own unique way.",
-    "category": "Confidence",
-    "isFavorite": false
-  },
-  {
-    "id": "4360e9c4-99b4-444e-a9c6-a88b52d1491e",
-    "affirmationText": "I am not afraid to be seen.",
-    "category": "Confidence",
-    "isFavorite": false
-  },
-  {
-    "id": "0a1660c3-5c1c-480e-a49d-759e07a35459",
-    "affirmationText": "Confidence is my natural state.",
-    "category": "Confidence",
-    "isFavorite": false
-  },
-  {
-    "id": "bc10d439-a8e3-43cb-9904-568c827f4ec3",
-    "affirmationText": "I embrace new challenges with courage.",
-    "category": "Confidence",
-    "isFavorite": false
-  },
-  {
-    "id": "9dfe6438-155e-42f9-a7d0-4fdae68e6907",
-    "affirmationText": "I trust the process of becoming.",
-    "category": "Confidence",
-    "isFavorite": false
-  },
-  {
-    "id": "b5d9eab0-94ee-4e20-ac58-4bbb6e90955a",
-    "affirmationText": "I am powerful and capable.",
-    "category": "Confidence",
-    "isFavorite": false
-  },
-  {
-    "id": "6ed36d7f-f0de-43d3-a4bd-90641158581c",
-    "affirmationText": "I rise above self-doubt.",
-    "category": "Confidence",
-    "isFavorite": false
-  },
-  {
-    "id": "50a98bff-bddc-4da6-8704-c2dc3020584b",
-    "affirmationText": "I am fearless in pursuit of my goals.",
-    "category": "Confidence",
-    "isFavorite": false
-  },
-  {
-    "id": "3b76d23b-704e-46d1-ad51-0927388e709a",
-    "affirmationText": "I lead with confidence and heart.",
-    "category": "Confidence",
-    "isFavorite": false
-  },
-  {
-    "id": "70a981ba-e940-4d1b-acb7-67030ca2f947",
-    "affirmationText": "I am unstoppable when I believe in me.",
-    "category": "Confidence",
-    "isFavorite": false
-  }
+    {
+        "id": "e1e66fc2-e85b-4ee6-9f8b-32cf3b66dbfd",
+        "affirmationText": "I accept myself unconditionally.",
+        "category": "Self-Love",
+        "isFavorite": false
+    },
+    {
+        "id": "164355a1-5c12-4268-af92-43648d0e71b2",
+        "affirmationText": "I am worthy of love and kindness.",
+        "category": "Self-Love",
+        "isFavorite": false
+    },
+    {
+        "id": "900da46e-4d8d-4871-852c-d67730de0a32",
+        "affirmationText": "I love who I am becoming.",
+        "category": "Self-Love",
+        "isFavorite": false
+    },
+    {
+        "id": "f0301c29-f07a-4d8e-b02c-f39f4236ad89",
+        "affirmationText": "I am enough, just as I am.",
+        "category": "Self-Love",
+        "isFavorite": false
+    },
+    {
+        "id": "edff4dc6-732a-4b64-bd40-618cfedf7515",
+        "affirmationText": "I treat myself with compassion.",
+        "category": "Self-Love",
+        "isFavorite": false
+    },
+    {
+        "id": "4086df2b-2e04-4cef-b4fa-b0306e4554ab",
+        "affirmationText": "My self-worth is not defined by others.",
+        "category": "Self-Love",
+        "isFavorite": false
+    },
+    {
+        "id": "c209f99f-a719-4155-bd95-d21d83db7b57",
+        "affirmationText": "I forgive myself for past mistakes.",
+        "category": "Self-Love",
+        "isFavorite": false
+    },
+    {
+        "id": "6bd79e9c-8fe4-470d-8d49-da0a1b741c2b",
+        "affirmationText": "I deserve to take up space.",
+        "category": "Self-Love",
+        "isFavorite": false
+    },
+    {
+        "id": "e44716b1-0e09-4bf4-b744-3fae3b028c13",
+        "affirmationText": "I celebrate my uniqueness.",
+        "category": "Self-Love",
+        "isFavorite": false
+    },
+    {
+        "id": "f8959da1-4f58-49c0-a288-587c5e337810",
+        "affirmationText": "I honor my needs and boundaries.",
+        "category": "Self-Love",
+        "isFavorite": false
+    },
+    {
+        "id": "a89fd296-58d8-4211-ac14-d7473532cb48",
+        "affirmationText": "I trust my inner wisdom.",
+        "category": "Self-Love",
+        "isFavorite": false
+    },
+    {
+        "id": "c8de13e5-da57-40cc-8873-9b19f7d91246",
+        "affirmationText": "I am proud of my progress.",
+        "category": "Self-Love",
+        "isFavorite": false
+    },
+    {
+        "id": "cfcc495a-3f54-463d-9b52-244e9f5d1561",
+        "affirmationText": "I radiate self-respect and confidence.",
+        "category": "Self-Love",
+        "isFavorite": false
+    },
+    {
+        "id": "e4ca5c4d-35f0-4ac8-b178-1cdad2129041",
+        "affirmationText": "I nurture my body, mind, and soul.",
+        "category": "Self-Love",
+        "isFavorite": false
+    },
+    {
+        "id": "a2ba35ba-c611-4fd7-9638-2653ced83f17",
+        "affirmationText": "I release the need for perfection.",
+        "category": "Self-Love",
+        "isFavorite": false
+    },
+    {
+        "id": "ac2fd6fc-18f0-4517-93c3-063395771c84",
+        "affirmationText": "I choose thoughts that serve me well.",
+        "category": "Self-Love",
+        "isFavorite": false
+    },
+    {
+        "id": "1b784fcf-dc91-43b6-8667-81a21355c65b",
+        "affirmationText": "I give myself permission to rest.",
+        "category": "Self-Love",
+        "isFavorite": false
+    },
+    {
+        "id": "987d416e-43eb-4fd8-98d5-1968e5867ad6",
+        "affirmationText": "My relationship with myself is strong.",
+        "category": "Self-Love",
+        "isFavorite": false
+    },
+    {
+        "id": "1336c2e6-2cfd-4ffd-8f02-f26943977193",
+        "affirmationText": "I am a work in progress and that\u2019s okay.",
+        "category": "Self-Love",
+        "isFavorite": false
+    },
+    {
+        "id": "3c72e35e-770b-41e0-bad4-148572c49fc1",
+        "affirmationText": "I value myself deeply.",
+        "category": "Self-Love",
+        "isFavorite": false
+    },
+    {
+        "id": "7c102706-ff5b-4b0a-a5c2-26a1f9ee8a44",
+        "affirmationText": "I am capable of achieving great things.",
+        "category": "Motivation",
+        "isFavorite": false
+    },
+    {
+        "id": "9d8a1a15-b9f2-421c-9e59-615f12dcf8fe",
+        "affirmationText": "Every step I take brings me closer to my goals.",
+        "category": "Motivation",
+        "isFavorite": false
+    },
+    {
+        "id": "367cac53-58dc-40b2-87c8-9c24a7634295",
+        "affirmationText": "I am motivated, persistent, and successful.",
+        "category": "Motivation",
+        "isFavorite": false
+    },
+    {
+        "id": "0019d546-870c-4006-bd40-d067fef393ae",
+        "affirmationText": "I have the power to change my story.",
+        "category": "Motivation",
+        "isFavorite": false
+    },
+    {
+        "id": "9e95335e-a030-4c9e-bec1-731659deabb4",
+        "affirmationText": "Obstacles are opportunities to grow.",
+        "category": "Motivation",
+        "isFavorite": false
+    },
+    {
+        "id": "9251a996-ed44-41a9-bd43-2bb7eec8bffc",
+        "affirmationText": "I am committed to my personal growth.",
+        "category": "Motivation",
+        "isFavorite": false
+    },
+    {
+        "id": "abdb6d3e-81e4-4811-8c80-98cc9ead5119",
+        "affirmationText": "I wake up with purpose and determination.",
+        "category": "Motivation",
+        "isFavorite": false
+    },
+    {
+        "id": "7511c3a4-9d11-424a-ae4b-197d8fa14746",
+        "affirmationText": "I believe in my vision for the future.",
+        "category": "Motivation",
+        "isFavorite": false
+    },
+    {
+        "id": "e91de97e-d553-40a3-8a17-572bac4c3017",
+        "affirmationText": "I act with courage and confidence.",
+        "category": "Motivation",
+        "isFavorite": false
+    },
+    {
+        "id": "1f12861f-d6bb-46dc-b057-ca6c0272eafd",
+        "affirmationText": "I take action even when it feels hard.",
+        "category": "Motivation",
+        "isFavorite": false
+    },
+    {
+        "id": "5f030306-ef95-4002-b69c-7614c78be795",
+        "affirmationText": "My dreams are valid and achievable.",
+        "category": "Motivation",
+        "isFavorite": false
+    },
+    {
+        "id": "7d7c9664-cdcb-4485-ae15-ce76a58715da",
+        "affirmationText": "I turn challenges into triumphs.",
+        "category": "Motivation",
+        "isFavorite": false
+    },
+    {
+        "id": "de79b13e-d4cc-4148-8e83-9fb4739d9692",
+        "affirmationText": "I stay focused and never give up.",
+        "category": "Motivation",
+        "isFavorite": false
+    },
+    {
+        "id": "ee3f7c81-8796-440f-bcb3-11e5ab08c839",
+        "affirmationText": "I trust the journey of progress.",
+        "category": "Motivation",
+        "isFavorite": false
+    },
+    {
+        "id": "8a3a865e-ec83-434f-aad9-9fbebbec206b",
+        "affirmationText": "I create momentum through consistency.",
+        "category": "Motivation",
+        "isFavorite": false
+    },
+    {
+        "id": "440bc756-ac1b-4660-b0f8-9c69a43772de",
+        "affirmationText": "I am fueled by my passion and goals.",
+        "category": "Motivation",
+        "isFavorite": false
+    },
+    {
+        "id": "1e1f2fd1-6518-4c39-968e-a458fed6943a",
+        "affirmationText": "Every day I move forward with clarity.",
+        "category": "Motivation",
+        "isFavorite": false
+    },
+    {
+        "id": "9ba3bbd4-b173-4032-a39a-bf9fefee4fcd",
+        "affirmationText": "I embrace effort and improvement.",
+        "category": "Motivation",
+        "isFavorite": false
+    },
+    {
+        "id": "2e357150-5b61-4db9-8e39-cdc7679d8999",
+        "affirmationText": "I stay disciplined and determined.",
+        "category": "Motivation",
+        "isFavorite": false
+    },
+    {
+        "id": "e625f340-7287-477e-92f9-0b4fa6b0c05a",
+        "affirmationText": "I can do hard things.",
+        "category": "Motivation",
+        "isFavorite": false
+    },
+    {
+        "id": "c7c77692-fcbd-4272-9800-81238c2eecde",
+        "affirmationText": "I am thankful for the small joys in life.",
+        "category": "Gratitude",
+        "isFavorite": false
+    },
+    {
+        "id": "0a10dde8-465f-4f06-88ed-45da0b39e9eb",
+        "affirmationText": "Gratitude fills my heart and soul.",
+        "category": "Gratitude",
+        "isFavorite": false
+    },
+    {
+        "id": "286d4520-e026-4fbc-b00d-e72201d00514",
+        "affirmationText": "I appreciate all the good in my life.",
+        "category": "Gratitude",
+        "isFavorite": false
+    },
+    {
+        "id": "a21055ee-d023-4081-9ae4-fa77a283af77",
+        "affirmationText": "Today, I choose to see the blessings.",
+        "category": "Gratitude",
+        "isFavorite": false
+    },
+    {
+        "id": "b5cd4852-554d-4f44-82de-b0ea5d2e19ef",
+        "affirmationText": "I am grateful for my journey.",
+        "category": "Gratitude",
+        "isFavorite": false
+    },
+    {
+        "id": "57299a9f-2294-4f6c-a4e2-ea67c4f0750c",
+        "affirmationText": "My heart is full of appreciation.",
+        "category": "Gratitude",
+        "isFavorite": false
+    },
+    {
+        "id": "67864fdb-9dba-498e-8075-21d036609e47",
+        "affirmationText": "I notice beauty in everyday moments.",
+        "category": "Gratitude",
+        "isFavorite": false
+    },
+    {
+        "id": "6f1100ed-1dd5-4b7b-83a0-cc9f57031a43",
+        "affirmationText": "Gratitude guides my actions and thoughts.",
+        "category": "Gratitude",
+        "isFavorite": false
+    },
+    {
+        "id": "e1ec0bb0-654f-41b6-b167-fbb7aa33cf87",
+        "affirmationText": "I express thanks with sincerity and love.",
+        "category": "Gratitude",
+        "isFavorite": false
+    },
+    {
+        "id": "7b9a2c09-9b20-44c4-b16c-140b5036f97c",
+        "affirmationText": "Each moment is a gift I cherish.",
+        "category": "Gratitude",
+        "isFavorite": false
+    },
+    {
+        "id": "1654694c-6994-4a41-bc40-2a7a2c2be809",
+        "affirmationText": "I am grateful for the people who support me.",
+        "category": "Gratitude",
+        "isFavorite": false
+    },
+    {
+        "id": "8b770cb9-6496-4daa-b813-873a6d9a2d21",
+        "affirmationText": "I give thanks freely and often.",
+        "category": "Gratitude",
+        "isFavorite": false
+    },
+    {
+        "id": "896e5c48-5706-4aaa-a746-0145b60b8d93",
+        "affirmationText": "I focus on abundance, not lack.",
+        "category": "Gratitude",
+        "isFavorite": false
+    },
+    {
+        "id": "30d53a68-28c6-491a-8de8-cbdaac07df37",
+        "affirmationText": "My life is rich with meaningful moments.",
+        "category": "Gratitude",
+        "isFavorite": false
+    },
+    {
+        "id": "3fc47287-1cda-43fc-9ba8-14f538e71d1f",
+        "affirmationText": "I honor the present with gratitude.",
+        "category": "Gratitude",
+        "isFavorite": false
+    },
+    {
+        "id": "5766d59b-dca6-4b89-8f40-d307f85cf2cf",
+        "affirmationText": "Gratitude opens my heart to happiness.",
+        "category": "Gratitude",
+        "isFavorite": false
+    },
+    {
+        "id": "bdecb195-a465-4547-bdf7-8c55ee208a0c",
+        "affirmationText": "Thankfulness shifts my perspective.",
+        "category": "Gratitude",
+        "isFavorite": false
+    },
+    {
+        "id": "04c02b50-cc44-4bf0-9862-b863fd048a17",
+        "affirmationText": "I appreciate myself and others.",
+        "category": "Gratitude",
+        "isFavorite": false
+    },
+    {
+        "id": "9dae856f-abc3-47ea-94d7-1cef0619e738",
+        "affirmationText": "I welcome joy through gratitude.",
+        "category": "Gratitude",
+        "isFavorite": false
+    },
+    {
+        "id": "582600fd-62e8-4dda-96c5-bbc7e532dcda",
+        "affirmationText": "Gratitude is my daily practice.",
+        "category": "Gratitude",
+        "isFavorite": false
+    },
+    {
+        "id": "16a53eec-de3e-482c-8d0f-bd64b004e441",
+        "affirmationText": "I am present in this moment.",
+        "category": "Mindfulness",
+        "isFavorite": false
+    },
+    {
+        "id": "235ec4f0-235d-4b3b-a629-d26437237873",
+        "affirmationText": "I let go of worries and embrace peace.",
+        "category": "Mindfulness",
+        "isFavorite": false
+    },
+    {
+        "id": "89ea7004-5636-4060-a3ce-5eb2992df3ec",
+        "affirmationText": "I breathe deeply and feel calm.",
+        "category": "Mindfulness",
+        "isFavorite": false
+    },
+    {
+        "id": "cc5ac5d6-e482-4a25-ba95-f47c3121c136",
+        "affirmationText": "Each breath grounds me.",
+        "category": "Mindfulness",
+        "isFavorite": false
+    },
+    {
+        "id": "a5fec49e-b7f9-4f56-a453-741c9ba299eb",
+        "affirmationText": "I observe my thoughts without judgment.",
+        "category": "Mindfulness",
+        "isFavorite": false
+    },
+    {
+        "id": "4f620fe6-f448-46de-a599-bb40705911b0",
+        "affirmationText": "Peace begins with mindfulness.",
+        "category": "Mindfulness",
+        "isFavorite": false
+    },
+    {
+        "id": "8c6e6af0-5309-446f-9b46-ad7b61e9edb5",
+        "affirmationText": "I am aware of my emotions and sensations.",
+        "category": "Mindfulness",
+        "isFavorite": false
+    },
+    {
+        "id": "83d87e0d-347f-43fd-ad21-941e88117b60",
+        "affirmationText": "I embrace the now with open arms.",
+        "category": "Mindfulness",
+        "isFavorite": false
+    },
+    {
+        "id": "2ba92ced-534c-416f-ad8a-a473f482a1c2",
+        "affirmationText": "I let go of what I cannot control.",
+        "category": "Mindfulness",
+        "isFavorite": false
+    },
+    {
+        "id": "86573e04-85eb-4f8c-baa6-046402f501b9",
+        "affirmationText": "Silence and stillness are my allies.",
+        "category": "Mindfulness",
+        "isFavorite": false
+    },
+    {
+        "id": "5fd366aa-254a-40e9-8669-f66939d2a6fb",
+        "affirmationText": "I am centered and calm.",
+        "category": "Mindfulness",
+        "isFavorite": false
+    },
+    {
+        "id": "c57b8226-f0c3-475e-993b-5e8e03016406",
+        "affirmationText": "I welcome clarity into my mind.",
+        "category": "Mindfulness",
+        "isFavorite": false
+    },
+    {
+        "id": "76c71dd4-9938-4d74-8f4e-bdade8fae3ee",
+        "affirmationText": "I return to the present with ease.",
+        "category": "Mindfulness",
+        "isFavorite": false
+    },
+    {
+        "id": "c1e480a0-7458-40a2-8738-7b2b1f75bf70",
+        "affirmationText": "I notice the beauty of this moment.",
+        "category": "Mindfulness",
+        "isFavorite": false
+    },
+    {
+        "id": "72dad70b-c71d-448f-805f-ba4e2a0b78b3",
+        "affirmationText": "I release tension with every breath.",
+        "category": "Mindfulness",
+        "isFavorite": false
+    },
+    {
+        "id": "e4fc2388-6f7e-4edf-818b-c993eafe5dde",
+        "affirmationText": "Mindfulness nurtures my spirit.",
+        "category": "Mindfulness",
+        "isFavorite": false
+    },
+    {
+        "id": "7576e17d-2874-47c1-9df6-88f56c8f570b",
+        "affirmationText": "I slow down and enjoy life\u2019s flow.",
+        "category": "Mindfulness",
+        "isFavorite": false
+    },
+    {
+        "id": "d8131515-0305-4c5e-bba9-ca26804e372e",
+        "affirmationText": "I make space for quiet reflection.",
+        "category": "Mindfulness",
+        "isFavorite": false
+    },
+    {
+        "id": "b27ab477-3716-434f-9123-0a6d0d513a90",
+        "affirmationText": "The present moment is my home.",
+        "category": "Mindfulness",
+        "isFavorite": false
+    },
+    {
+        "id": "aeb93ec6-e6ca-44f9-8bb2-03050d798d5d",
+        "affirmationText": "I walk through life with awareness.",
+        "category": "Mindfulness",
+        "isFavorite": false
+    },
+    {
+        "id": "6ff095ea-2b05-4c4a-84f1-bb0edfdcfe22",
+        "affirmationText": "I believe in myself completely.",
+        "category": "Confidence",
+        "isFavorite": false
+    },
+    {
+        "id": "753a2914-8ef7-4f44-bda6-db74e48ac5dd",
+        "affirmationText": "I walk with strength and assurance.",
+        "category": "Confidence",
+        "isFavorite": false
+    },
+    {
+        "id": "5ac982a3-5e88-40cc-b36b-2d4cd9de37c5",
+        "affirmationText": "My confidence grows every day.",
+        "category": "Confidence",
+        "isFavorite": false
+    },
+    {
+        "id": "083eb33d-0723-4b93-b2fe-67ae7996432a",
+        "affirmationText": "I trust myself to make wise decisions.",
+        "category": "Confidence",
+        "isFavorite": false
+    },
+    {
+        "id": "5f36514e-b908-43a7-b152-da9c273f550d",
+        "affirmationText": "I handle challenges with grace.",
+        "category": "Confidence",
+        "isFavorite": false
+    },
+    {
+        "id": "6250f9bc-ad17-416d-88ec-090945cea496",
+        "affirmationText": "I speak with clarity and purpose.",
+        "category": "Confidence",
+        "isFavorite": false
+    },
+    {
+        "id": "ba8ae396-c626-424f-bf1b-739e3f34e2d3",
+        "affirmationText": "I am proud of my abilities.",
+        "category": "Confidence",
+        "isFavorite": false
+    },
+    {
+        "id": "20753f9d-35a6-4f49-8615-f75526d0107d",
+        "affirmationText": "I take up space with confidence.",
+        "category": "Confidence",
+        "isFavorite": false
+    },
+    {
+        "id": "680fca7e-4e26-4857-9829-5fa036c8d64e",
+        "affirmationText": "I bring value wherever I go.",
+        "category": "Confidence",
+        "isFavorite": false
+    },
+    {
+        "id": "a68a7936-1c2d-4f4b-a7d1-9486e34db0d9",
+        "affirmationText": "My voice matters.",
+        "category": "Confidence",
+        "isFavorite": false
+    },
+    {
+        "id": "27d3737e-e9da-4641-a2b4-3a6294040fc9",
+        "affirmationText": "I shine in my own unique way.",
+        "category": "Confidence",
+        "isFavorite": false
+    },
+    {
+        "id": "4360e9c4-99b4-444e-a9c6-a88b52d1491e",
+        "affirmationText": "I am not afraid to be seen.",
+        "category": "Confidence",
+        "isFavorite": false
+    },
+    {
+        "id": "0a1660c3-5c1c-480e-a49d-759e07a35459",
+        "affirmationText": "Confidence is my natural state.",
+        "category": "Confidence",
+        "isFavorite": false
+    },
+    {
+        "id": "bc10d439-a8e3-43cb-9904-568c827f4ec3",
+        "affirmationText": "I embrace new challenges with courage.",
+        "category": "Confidence",
+        "isFavorite": false
+    },
+    {
+        "id": "9dfe6438-155e-42f9-a7d0-4fdae68e6907",
+        "affirmationText": "I trust the process of becoming.",
+        "category": "Confidence",
+        "isFavorite": false
+    },
+    {
+        "id": "b5d9eab0-94ee-4e20-ac58-4bbb6e90955a",
+        "affirmationText": "I am powerful and capable.",
+        "category": "Confidence",
+        "isFavorite": false
+    },
+    {
+        "id": "6ed36d7f-f0de-43d3-a4bd-90641158581c",
+        "affirmationText": "I rise above self-doubt.",
+        "category": "Confidence",
+        "isFavorite": false
+    },
+    {
+        "id": "50a98bff-bddc-4da6-8704-c2dc3020584b",
+        "affirmationText": "I am fearless in pursuit of my goals.",
+        "category": "Confidence",
+        "isFavorite": false
+    },
+    {
+        "id": "3b76d23b-704e-46d1-ad51-0927388e709a",
+        "affirmationText": "I lead with confidence and heart.",
+        "category": "Confidence",
+        "isFavorite": false
+    },
+    {
+        "id": "70a981ba-e940-4d1b-acb7-67030ca2f947",
+        "affirmationText": "I am unstoppable when I believe in me.",
+        "category": "Confidence",
+        "isFavorite": false
+    },
+    {
+        "id": "D1D5C9B7-CA08-4E1A-86F5-93B74A9629E1",
+        "affirmationText": "Every challenge I face makes me stronger.",
+        "category": "Resilience",
+        "isFavorite": false
+    },
+    {
+        "id": "2E30AE4E-2079-4C92-9BA7-0B77C8CE8BA7",
+        "affirmationText": "I have the ability to adapt to any situation.",
+        "category": "Resilience",
+        "isFavorite": false
+    },
+    {
+        "id": "84C55E24-E8D8-44BC-81B5-FFB31D34200E",
+        "affirmationText": "Every obstacle is an opportunity to grow.",
+        "category": "Resilience",
+        "isFavorite": false
+    },
+    {
+        "id": "B8592858-3BBF-4715-9E7D-3B37C7A0B7E9",
+        "affirmationText": "My inner strength guides me through hard times.",
+        "category": "Resilience",
+        "isFavorite": false
+    },
+    {
+        "id": "5A37C624-FF9F-47E7-9F71-029D53B8E38C",
+        "affirmationText": "Adversity teaches me valuable lessons.",
+        "category": "Resilience",
+        "isFavorite": false
+    },
+    {
+        "id": "64ABF3B0-297B-4A6F-B6FA-437DBBA1A4A6",
+        "affirmationText": "I have the strength to keep going no matter what.",
+        "category": "Resilience",
+        "isFavorite": false
+    },
+    {
+        "id": "B57294DA-9B68-4D2D-9607-23302BE50E83",
+        "affirmationText": "Hardships are temporary, my determination is permanent.",
+        "category": "Resilience",
+        "isFavorite": false
+    },
+    {
+        "id": "1DBA8B15-3BA2-4E4F-9E77-0D91C91F0F8B",
+        "affirmationText": "I rise stronger every time I fall.",
+        "category": "Resilience",
+        "isFavorite": false
+    },
+    {
+        "id": "0E9349F8-1E77-46E8-9D68-C221A6BE92A6",
+        "affirmationText": "My perseverance opens new doors for me.",
+        "category": "Resilience",
+        "isFavorite": false
+    },
+    {
+        "id": "6B58E64F-8D99-4E12-BB93-4163A72E0627",
+        "affirmationText": "I welcome change as part of my evolution.",
+        "category": "Resilience",
+        "isFavorite": false
+    },
+    {
+        "id": "EC056015-AC45-4A63-B2A0-7862C6DBA772",
+        "affirmationText": "Every challenge is a chance to prove my strength.",
+        "category": "Resilience",
+        "isFavorite": false
+    },
+    {
+        "id": "B789561D-05F1-41F6-A869-46C6BFCBF517",
+        "affirmationText": "My mind is flexible and finds new solutions.",
+        "category": "Resilience",
+        "isFavorite": false
+    },
+    {
+        "id": "771E82B6-1BB8-4CBE-A7C1-3A57E9C8F8E5",
+        "affirmationText": "I am capable of overcoming any challenge I face.",
+        "category": "Resilience",
+        "isFavorite": false
+    },
+    {
+        "id": "E59A74AD-3B99-47C3-BB12-1B75E7091CE8",
+        "affirmationText": "My setbacks push me toward a stronger future.",
+        "category": "Resilience",
+        "isFavorite": false
+    },
+    {
+        "id": "A4E6B643-23ED-4791-BDB1-BF2CBEC7084F",
+        "affirmationText": "I have the power to recover and keep moving forward.",
+        "category": "Resilience",
+        "isFavorite": false
+    },
+    {
+        "id": "2D0CB321-C9F4-45B0-8AAE-0B283B33C3D6",
+        "affirmationText": "Storms pass, but my strength remains.",
+        "category": "Resilience",
+        "isFavorite": false
+    },
+    {
+        "id": "77416E4A-4B93-4CBB-8104-85417F73551D",
+        "affirmationText": "I am resilient and trust my abilities.",
+        "category": "Resilience",
+        "isFavorite": false
+    },
+    {
+        "id": "DEFF54B6-DBB8-4D97-A374-F8B75F5414E3",
+        "affirmationText": "Patience and persistence lead me to success.",
+        "category": "Resilience",
+        "isFavorite": false
+    },
+    {
+        "id": "A9FA2AEB-49B0-490A-920B-3CC9E8E6A0C0",
+        "affirmationText": "Each day I become stronger and more resilient.",
+        "category": "Resilience",
+        "isFavorite": false
+    },
+    {
+        "id": "B65041A8-90A0-4B0D-BB7C-0210DA74B756",
+        "affirmationText": "My spirit is stronger than any obstacle.",
+        "category": "Resilience",
+        "isFavorite": false
+    },
+    {
+        "id": "5F985431-79E8-4DC8-BEE3-705E98316B42",
+        "affirmationText": "Every difficult experience prepares me for success.",
+        "category": "Resilience",
+        "isFavorite": false
+    },
+    {
+        "id": "F9A0F016-F9DA-47B2-8A12-FA8EB27C7A4A",
+        "affirmationText": "I am stronger than I ever imagined.",
+        "category": "Resilience",
+        "isFavorite": false
+    },
+    {
+        "id": "8BCE2A9B-8F48-4D68-B7B2-90C7DF75E36F",
+        "affirmationText": "I face each day with courage and optimism.",
+        "category": "Resilience",
+        "isFavorite": false
+    },
+    {
+        "id": "E2E93E6B-10A6-45A2-9AD6-6DFA4D283A62",
+        "affirmationText": "My resilience helps me overcome any adversity.",
+        "category": "Resilience",
+        "isFavorite": false
+    },
+    {
+        "id": "C04A66AB-1E42-4A31-8B8B-C716E24C7D45",
+        "affirmationText": "Nothing can stop my determination.",
+        "category": "Resilience",
+        "isFavorite": false
+    }
 ]

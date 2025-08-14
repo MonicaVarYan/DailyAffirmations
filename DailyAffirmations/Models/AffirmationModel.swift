@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 
 
-struct Affirmation: Encodable, Decodable {
+struct Affirmation: Encodable, Decodable, Identifiable {
     let id: UUID
     let affirmationText: String
     let category: String
