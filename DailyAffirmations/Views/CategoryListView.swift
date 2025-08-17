@@ -12,17 +12,15 @@ struct CategoryListView: View {
     
     var body: some View {
         ZStack {
-            
             NavigationView {
                 List(viewModel.fullCategories.sorted(by: {$0.key < $1.key}), id: \.key) { category in
                     NavigationLink(
                         destination: CategoryDetailView(
-                            categoryName: category.key,
-                            onlyAffirmation: category.value.randomElement()
+                            affirmations: category.value
                         )
                     ) {
                         HStack {
-                            Image(systemName: "star.fill") // Aquí podrías asignar íconos por categoría si quieres
+                            Image(systemName: "star.fill")
                                 .foregroundColor(.blue)
                                 .frame(width: 70)
                             Text(category.key)
@@ -32,7 +30,6 @@ struct CategoryListView: View {
                     }
                 }
                 .navigationTitle("Categories")
-                
             }
         }
     }

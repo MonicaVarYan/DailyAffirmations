@@ -48,8 +48,8 @@ class AffirmationService {
     private func encodeAndSaveAffirmation(_ affirmation: Affirmation) {
         do {
             let data = try encoder.encode(affirmation)
-            UserDefaults.standard.set(data, forKey: "savedAffirmation")
-            UserDefaults.standard.set(Date(), forKey: "savedDay")
+            UserDefaults.standard.set(data, forKey: Keys.savedAffirmation)
+            UserDefaults.standard.set(Date(), forKey: Keys.savedDay)
         } catch {
             print("Error saving affirmation: \(error)")
         }
@@ -96,8 +96,7 @@ class AffirmationService {
         let affirmationItem = Affirmation(
             id: UUID(),
             affirmationText: response.affirmation,
-            category: "API",
-            isFavorite: false
+            category: "API"
         )
         
         encodeAndSaveAffirmation(affirmationItem)
