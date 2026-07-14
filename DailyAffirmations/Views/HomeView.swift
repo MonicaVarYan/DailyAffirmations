@@ -97,14 +97,14 @@ struct HomeView: View {
     private var header: some View {
         VStack(spacing: 8) {
             Text("Daily Affirmation")
-                .font(.subheadline)
+                .font(.headline)
                 .fontWeight(.semibold)
                 .textCase(.uppercase)
                 .tracking(3)
                 .foregroundColor(Color("TextPrimary").opacity(0.6))
 
             Text(Date.now.formatted(.dateTime.month(.twoDigits).day(.twoDigits).year()))
-                .font(.footnote)
+                .font(.subheadline)
                 .foregroundColor(Color("TextPrimary").opacity(0.4))
         }
         .opacity(showAffirmation ? 1 : 0)
@@ -112,7 +112,7 @@ struct HomeView: View {
 
     private func affirmationCard(for affirmation: Affirmation) -> some View {
         Text(affirmation.affirmationText)
-            .font(.system(.largeTitle, design: .serif))
+            .font(.system(.title3 , design: .serif))
             .fontWeight(.medium)
             .foregroundColor(Color("TextPrimary"))
             .multilineTextAlignment(.center)

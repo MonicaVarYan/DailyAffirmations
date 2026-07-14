@@ -76,14 +76,14 @@ struct FavoritesView: View {
     private var header: some View {
         VStack(spacing: 8) {
             Text("Favorites")
-                .font(.subheadline)
+                .font(.headline)
                 .fontWeight(.semibold)
                 .textCase(.uppercase)
                 .tracking(3)
                 .foregroundColor(Color("TextPrimary").opacity(0.6))
 
             Text("The affirmations you saved for yourself")
-                .font(.footnote)
+                .font(.subheadline)
                 .foregroundColor(Color("TextPrimary").opacity(0.4))
         }
         .frame(maxWidth: .infinity)

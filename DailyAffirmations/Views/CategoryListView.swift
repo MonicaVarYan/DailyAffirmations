@@ -71,14 +71,14 @@ struct CategoryListView: View {
     private var header: some View {
         VStack(spacing: 8) {
             Text("Categories")
-                .font(.subheadline)
+                .font(.headline)
                 .fontWeight(.semibold)
                 .textCase(.uppercase)
                 .tracking(3)
                 .foregroundColor(Color("TextPrimary").opacity(0.6))
 
             Text("Choose a theme for your moment of calm")
-                .font(.footnote)
+                .font(.subheadline)
                 .foregroundColor(Color("TextPrimary").opacity(0.4))
         }
         .frame(maxWidth: .infinity)
