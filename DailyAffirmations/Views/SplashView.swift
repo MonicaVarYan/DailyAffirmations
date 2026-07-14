@@ -32,7 +32,7 @@ struct SplashView: View {
                     .fontWeight(.medium)
                     .foregroundColor(Color("TextPrimary"))
 
-                Text("Un momento para ti")
+                Text("A moment for yourself")
                     .font(.footnote)
                     .textCase(.uppercase)
                     .tracking(3)

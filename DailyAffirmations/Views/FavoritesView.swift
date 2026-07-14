@@ -82,7 +82,7 @@ struct FavoritesView: View {
                 .tracking(3)
                 .foregroundColor(Color("TextPrimary").opacity(0.6))
 
-            Text("Las afirmaciones que guardaste para ti")
+            Text("The affirmations you saved for yourself")
                 .font(.footnote)
                 .foregroundColor(Color("TextPrimary").opacity(0.4))
         }
@@ -100,11 +100,11 @@ struct FavoritesView: View {
                         .fill(Color("Background").opacity(0.55))
                 )
 
-            Text("Aún no tienes favoritos")
+            Text("No favorites yet")
                 .font(.system(.headline, design: .serif))
                 .foregroundColor(Color("TextPrimary").opacity(0.7))
 
-            Text("Toca el corazón en una afirmación\npara guardarla aquí")
+            Text("Tap the heart on an affirmation\nto save it here")
                 .font(.footnote)
                 .multilineTextAlignment(.center)
                 .foregroundColor(Color("TextPrimary").opacity(0.4))

@@ -77,7 +77,7 @@ struct CategoryListView: View {
                 .tracking(3)
                 .foregroundColor(Color("TextPrimary").opacity(0.6))
 
-            Text("Elige un tema para tu momento de calma")
+            Text("Choose a theme for your moment of calm")
                 .font(.footnote)
                 .foregroundColor(Color("TextPrimary").opacity(0.4))
         }
@@ -100,7 +100,7 @@ struct CategoryListView: View {
                     .font(.system(.headline, design: .serif))
                     .foregroundColor(Color("TextPrimary"))
 
-                Text("\(count) afirmaciones")
+                Text("\(count) affirmations")
                     .font(.footnote)
                     .foregroundColor(Color("TextPrimary").opacity(0.5))
             }

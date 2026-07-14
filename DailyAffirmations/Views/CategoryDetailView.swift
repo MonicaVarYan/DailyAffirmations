@@ -143,7 +143,7 @@ struct CategoryDetailView: View {
                 currentAffirmation = affirmations.randomElement()
             }
         } label: {
-            Label("Nueva afirmación", systemImage: "sparkles")
+            Label("New affirmation", systemImage: "sparkles")
                 .font(.subheadline)
                 .fontWeight(.semibold)
                 .foregroundColor(Color("TextPrimary").opacity(0.7))

@@ -23,7 +23,7 @@ struct HomeView: View {
                 Spacer()
 
                 if viewModel.isLoading {
-                    ProgressView("Cargando afirmación...")
+                    ProgressView("Loading affirmation...")
                         .tint(Color("TextPrimary"))
                         .foregroundColor(Color("TextPrimary"))
                 } else if let affirmation = viewModel.dailyAffirmation {
@@ -96,14 +96,14 @@ struct HomeView: View {
 
     private var header: some View {
         VStack(spacing: 8) {
-            Text("Afirmación del Día")
+            Text("Daily Affirmation")
                 .font(.subheadline)
                 .fontWeight(.semibold)
                 .textCase(.uppercase)
                 .tracking(3)
                 .foregroundColor(Color("TextPrimary").opacity(0.6))
 
-            Text(Date.now.formatted(date: .long, time: .omitted))
+            Text(Date.now.formatted(.dateTime.month(.twoDigits).day(.twoDigits).year()))
                 .font(.footnote)
                 .foregroundColor(Color("TextPrimary").opacity(0.4))
         }
