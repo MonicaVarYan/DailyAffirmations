@@ -50,4 +50,5 @@ struct FavoritesView: View {
 
 #Preview {
     FavoritesView()
+        .environmentObject(FavoriteManagerService())
 }
